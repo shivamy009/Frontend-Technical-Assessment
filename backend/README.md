@@ -38,7 +38,7 @@ The API will be available at `http://localhost:8000`
 
 ### GET /
 Health check endpoint
-- Returns: `{"Ping": "Pong"}`
+- Returns: `{"message": "Hello World"}`
 
 ### POST /pipelines/parse
 Validate a pipeline graph
