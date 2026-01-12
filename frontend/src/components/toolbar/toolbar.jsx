@@ -29,7 +29,7 @@ export const PipelineToolbar = () => {
               <span className="text-blue-600 text-2xl sm:text-3xl lg:text-4xl">⚡</span>
             </div>
 
-            <div className="hidden lg:flex items-center gap-3 overflow-x-auto">
+            <div className="hidden lg:flex items-center gap-3 overflow-x-hidden">
               {nodes.map((node) => (
                 <DraggableNode key={node.type} type={node.type} label={node.label} icon={node.icon} />
               ))}
